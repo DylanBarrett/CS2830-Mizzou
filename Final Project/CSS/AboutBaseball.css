@@ -1,0 +1,60 @@
+h3{
+	font-size: 25px;
+	flex: 100%;
+	border: 2px solid black;
+}
+p{
+	font-size: 20px;
+	background-color: white;
+}
+body, html{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+.img-responsive{
+    width: 100%; /*img width*/
+}
+#HistoryWrapper{
+    position: absolute;
+	border: 5px solid powderblue;
+    display: flex;
+	flex-flow: row wrap;
+	background-color: white;
+	opacity: .9;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container{
+    max-height: auto;
+    width: 100%;
+	position: relative;
+	text-align: center;
+	align-content: center;
+}
+.column {
+	 font-size: 20px;
+	 text-indent: 10px; 
+     padding: 5px; 
+     text-align: justify; 
+     box-sizing: border-box; 
+            }
+.firstRow{
+     flex: 33%;
+	text-align: justify;
+}
+.middleItem{
+     border-left: 2px solid slategray;
+     border-right: 2px solid slategray;
+                
+}
+#background{
+	background-image: url(..//Images/aboutBB.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+    background-attachment: fixed;
+}

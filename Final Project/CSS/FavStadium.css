@@ -1,0 +1,46 @@
+#background{
+    background-image: linear-gradient(red, whitesmoke);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+html, body{
+	height: 100%;
+    max-width: 100%;
+}
+.carousel,.item,.active {
+    height: 100%;
+    max-width: 100%;
+}
+.carousel-inner {
+    height: auto;
+	max-width: 100%;
+}
+.img-responsive{
+    width: 100%; /*img width*/
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+.container{
+    max-height: 100%;
+    max-width: 100%;
+	position: relative;
+	text-align: center;
+	align-content: center;
+}
+.PicText{
+	position: absolute;
+	top: 0px;
+	left: 480px;
+	color: lawngreen;
+	background-color: gray;
+	opacity: .8;
+	padding: 0px 5px 0px 5px;
+}

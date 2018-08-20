@@ -1,0 +1,26 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="../HTML/HomeLogin.php">Home</a></li>
+          <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="../HTML/FavPlayers.html">My Favorite Players
+            <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+			<li><a href="../HTML/FavPlayers.php">My Favorite Current Players</a></li>
+          <li><a href="../HTML/AllTimePlayers.php">My Favorite All-Time Players</a></li>
+              </ul>
+        <li><a href="../HTML/FavStadium.php">My Favorite Stadiums</a></li>
+        <li><a href="../HTML/AboutBaseball.php">About Baseball</a></li>
+        <li><a href="logout.php">Logout</a></li>
+      </ul>
+      </div>
+        </div>
+        </nav>

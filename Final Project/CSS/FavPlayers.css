@@ -1,0 +1,273 @@
+#background{
+	position: relative;
+	background-image: url("../Images/BaseballField.jpg");
+	padding: 0px;
+	margin: 0px;
+	width: auto;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	overflow: hidden
+}
+h3{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: cursive, fantasy, sans-serif;
+}
+.container{
+	text-align: center;
+	align-content: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: -290px;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+     visibility: hidden;
+}
+.img-responsive{
+    width: 100%; /*img width*/
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.ModalPic{
+	text-align: center;
+    height: 15em;
+    width: 15em;
+}
+.popup {
+  z-index: 1;
+  margin: 50px auto;
+  padding: 10px;
+  background: dimgray;
+  border: 2px solid black;
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+.close {
+  position: absolute;
+  width: 5px;
+  top: 20px;
+  right: 20px;
+  transition: all 200ms;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.close:hover {
+    color: red;
+}
+.content {
+    max-height: 500px;
+    overflow: auto;
+  }
+body, html{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.buttons{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttons:hover{
+	background-color: red;
+	border: 3px solid blue;
+}
+.Catcher{
+	position: absolute;
+	top: 89.5%;
+	left: 50%;
+	height: 50px;
+	width: 50px;
+	
+}
+.Catcher:active{
+	background-color: red;
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.Catcher:hover{
+	background-color: black;
+	color: white;
+}
+.First{
+	position: absolute;
+	top: 77%;
+	left: 70%;
+	height: 30px;
+	width: 30px;
+	transform: rotate(45deg);
+}
+.First:active{
+	background-color: red;
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.First:hover{
+	background-color: black;
+	color: white;
+}
+.Second{
+	position: absolute;
+	top: 69%;
+	left: 51%;
+	height: 30px;
+	width: 30px;
+	transform: rotate(45deg);
+}
+.Second:active{
+	background-color: red;
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.Second:hover{
+	background-color: black;
+	color: white;
+}
+.Third{
+	position: absolute;
+	top: 77%;
+	left: 31.5%;
+	height: 30px;
+	width: 30px;
+	transform: rotate(45deg);
+}
+.Third:active{
+	background-color: red;
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.Third:hover{
+	background-color: black;
+	color: white;
+}
+.SS{
+	position: absolute;
+	top: 72%;
+	left: 42%;
+	height: 30px;
+	width: 30px;
+	transform: rotate(45deg);
+}
+.SS:active{
+	background-color: red;
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.SS:hover{
+	background-color: black;
+	color: white;
+}
+.LF{
+	position: absolute;
+	top: 63%;
+	left: 30%;
+}
+.LF:active{
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.CF{
+	position: absolute;
+	top: 60%;
+	left: 50.5%;
+}
+.CF:active{
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.RF{
+	position: absolute;
+	top: 63%;
+	left: 70%;
+}
+.RF:active{
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.SP{
+	position: absolute;
+	top: 78.5%;
+	left: 50.5%;
+	height: 20px;
+	width: 40px;
+}
+.SP:active{
+	background-color: red;
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.SP:hover{
+	background-color: black;
+	color: white;
+}
+.RP{
+	position: absolute;
+	top: 75%;
+	left: 85%;
+	height: 50px;
+	width: 70px;
+}
+.RP:active{
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.Mascot{
+	position: absolute;
+	top: 75%;
+	left: 10%;
+	height: 50px;
+	width: 75px;
+}
+.Mascot:active{
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}
+.Manager{
+	position: absolute;
+	top: 90%;
+	left: 10%;
+    height: 50px;
+	width: 75px;
+    background-color: transparent;
+}
+.Manager:active{
+	box-shadow: 5px 5px black;
+	transform: translateX(5px);
+	transform: translateY(5px);
+}

@@ -1,0 +1,10 @@
+h1{
+	font-family: cursive, fantasy,sans-serif;
+	background-color: white;
+	opacity: .7;
+	flex: 100%;
+	font-size: 50px;
+	text-align: center;
+	padding: 1px;
+	border: 5px solid red;
+}

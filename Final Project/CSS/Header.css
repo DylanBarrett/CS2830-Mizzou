@@ -1,0 +1,29 @@
+.background{
+    position: relative;
+	z-index: 0;
+	background-image: url("../Images/background.jpg");
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+    overflow: hidden;
+}
+h1{
+	font-family: cursive, fantasy,sans-serif;
+	background-color: white;
+	opacity: .7;
+	flex: 100%;
+	font-size: 50px;
+	text-align: center;
+	padding: 1px;
+	border: 5px solid red;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+	padding: 0px;
+}
